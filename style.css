@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container .navbar{
+    background-color: #353434;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.logo{
+    color: aliceblue;
+    margin-left: 120px;
+}
+.logo h1{
+    width: 300px;
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+}
+.logo a{
+    text-decoration: none;
+}
+.nav-menu{
+    width: 70%;
+}
+.nav-menu ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    float: right;
+    margin-right: 70px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 20px;
+
+}
+.nav-menu a:hover{
+    color: #D9D9D9;
+    text-decoration: 3px underline;
+
+}
+
+/* header and front start from here  */
+.main-header {
+    width: 100%;
+    height: 82vh;
+    background: url("/image/header.png") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 65px;
+}
+.hello{
+    margin-top: 190px;
+    width: 90px;
+    margin-left: 120px;
+    font-size: 25px;
+}
+
+.main-header h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding-bottom: 8px;
+}
+
+.main-header h2,
+.main-header p {
+    width: 420px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+
+.main-header a {
+    margin: 13px 0;
+    margin-left: 120px;
+}
+
+.btn {
+    display: inline-block;
+    width: 70px;
+    padding: 10px 20px;
+    line-height: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: all 300ms linear;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.btn-dark {
+    background-color: #807f7fde;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #D9D9D9;
+    color: #fff;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #555;
+}
+
+/* header and front end from here */
+/* social icon */
+.socialIcon{
+    display: block;
+    width: 100px;
+    margin-left: 105px;
+}
+.socialIcon ul{
+    display: flex;
+    list-style-type: none;
+}
+.socialIcon li{
+    /* margin: 0  10px 0 0; */
+    padding: 10px 15px;
+    font-size: 30px;
+    /* border: #000000 solid 1px;
+    border-radius: 50px; */
+}
+.socialIcon li a{
+    margin-left: 0px;
+    color: black;
+}
+.fa-instagram:hover{
+    color: red;
+}
+.fa-linkedin-in:hover{
+    color: blue;
+}
+.fa-github:hover{
+    color: #353434;
+}
+
+
+/* about section start */
+.about-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .about-container h2{
+        margin-top: 50px;
+  }
+  .profile-image {
+    width: 400px;
+    max-width: 400px;
+    border-radius: 5%;
+    margin-bottom: 70px;
+  }
+  .about-text {
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+  /* about button */
+  .about-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .about-btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+ /* Skills */
+ #skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    background-color: #D9D9D9;
+  }
+  .section-heading i{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .section-heading span{
+    text-decoration: none;
+    font-size: 50px;
+  }
+#skills-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .skill-progress {
+    width: 20%;
+    min-width: 180px;
+    height: auto;
+    border-radius: 25px;
+    background-color: rgb(233, 232, 232);
+    margin: 2rem 1rem;
+  }
+  
+  .skill-progress > div {
+    border-radius: 25px 0 0 25px;
+    box-shadow: 4px 0px 4px 0px grey;
+  }
+  
+  #skill-1, #skill-5 {
+    background-color: dodgerblue;
+  }
+  
+  #skill-2 {
+    background-color: orangered;
+  }
+  
+  #skill-4 {
+    background-color: green;
+  }
+  
+  #skill-3, #skill-6 {
+    background-color: palevioletred;
+  }
+  
+  .skill-name {
+    margin-left: 10px;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+  /* Percentage Classes */
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
+  }
+  
+  .fifty-percent {
+    width: 50%;
+    height: inherit;
+  }
+  
+  /* Timeline container*/
+#experience{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    background-color: #ffffff;
+}
+.timeline {
+    width: 75%;
+    min-width: 750px;
+    position: relative;
+    font-size: 1rem;
+  }
+  
+  .timeline-box {
+    position: relative;
+    margin: 1rem 0;
+    height: auto;
+    width: 40%;
+  }
+  
+  .timeline-box:nth-child(2n + 1) {
+    left: 5%;
+  }
+  
+  .timeline-box:nth-child(2n) {
+    left: 55%;
+  }
+  
+  .timeline-head {
+    text-align: right;
+  }
+  
+  .timeline-head img {
+    position: absolute;
+  }
+  
+  .timeline-head h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+    color: #1262b3;
+  }
+  
+  .timeline-head h4 {
+    font-size: 1.25em;
+    color: #ff7b00;
+  }
+  
+  .timeline-head h6 {
+    font-size: 1.1em;
+    margin-bottom: 0.25em;
+  }
+  
+  .timeline-body {
+    padding: 4px;
+    text-align: justify;
+    line-height: 1.35em;
+  }
+  
+  .timeline-body p {
+    font-size: 1em;
+  }
+  
+  .timeline-divider {
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    width: 0;
+    transform: translateX(-50%);
+    border-left: 4px dashed #cacaca;
+  }
+  
+  .divider-icon {
+    font-size: 2em;
+    color: #1262b3;
+    position: sticky;
+    top: 5%;
+    margin-left: -5px;
+    transform: rotate(90deg);
+  }
+  
+  
+
+ 
+  

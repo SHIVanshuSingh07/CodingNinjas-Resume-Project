@@ -1,4 +1,4 @@
-<h1>My-Resume-project</h1>
+<h1>CodingNinjas-Resume-project</h1>
 
 ## Resume Project
 
